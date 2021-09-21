@@ -1,0 +1,119 @@
+{
+  "contractName": "SimpleSmartContract",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/abbracx/Documents/Blockchain-Projects/Solidity-Test/contracts/simpleSmartContract.sol\":\"SimpleSmartContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/abbracx/Documents/Blockchain-Projects/Solidity-Test/contracts/simpleSmartContract.sol\":{\"keccak256\":\"0x832caa5bbb43d530c96239521a2493d54df30d9c97cf13cfb6edb529d2df3d5c\",\"urls\":[\"bzz-raw://93dde1fb7fa9b3e4b9a4cc5e7753b1f468ec2e444c7d8da80ac9b5e9a6a6931e\",\"dweb:/ipfs/QmPEsDFbq1J75kZXY8N1eqJ84EjfVKkr1k8pD67jQrMF7g\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220a1d9dad7608deb09271994729f57af697717e0e77b90019e4e37ff5c0ca54d9064736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220a1d9dad7608deb09271994729f57af697717e0e77b90019e4e37ff5c0ca54d9064736f6c63430008000033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "25:30:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "25:30:1:-:0;;;;;",
+  "source": "pragma solidity ^0.8.0;\n\ncontract SimpleSmartContract{}\n",
+  "sourcePath": "/home/abbracx/Documents/Blockchain-Projects/Solidity-Test/contracts/simpleSmartContract.sol",
+  "ast": {
+    "absolutePath": "/home/abbracx/Documents/Blockchain-Projects/Solidity-Test/contracts/simpleSmartContract.sol",
+    "exportedSymbols": {
+      "SimpleSmartContract": [
+        35
+      ]
+    },
+    "id": 36,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 35,
+        "linearizedBaseContracts": [
+          35
+        ],
+        "name": "SimpleSmartContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 36,
+        "src": "25:30:1"
+      }
+    ],
+    "src": "0:56:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/abbracx/Documents/Blockchain-Projects/Solidity-Test/contracts/simpleSmartContract.sol",
+    "exportedSymbols": {
+      "SimpleSmartContract": [
+        35
+      ]
+    },
+    "id": 36,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 35,
+        "linearizedBaseContracts": [
+          35
+        ],
+        "name": "SimpleSmartContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 36,
+        "src": "25:30:1"
+      }
+    ],
+    "src": "0:56:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {
+    "1632120129347": {
+      "events": {},
+      "links": {},
+      "address": "0x59d3631c86BbE35EF041872d502F218A39FBa150",
+      "transactionHash": "0x190546059513d96778b678fca101ccd4592ab6c27f592a4bad82f1eba7647f96"
+    }
+  },
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-09-20T06:47:10.035Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
