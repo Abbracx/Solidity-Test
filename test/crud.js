@@ -21,7 +21,7 @@ contract('Crud', () => {
     });
 
     it('Should NOT update a NONE existing User', async () => {
-        try {
+        try {kay
             await crud.update(2, 'John');
         } catch(e){
             assert(e.message.includes('User does not exist'));
