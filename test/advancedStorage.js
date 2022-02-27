@@ -1,10 +1,11 @@
 const AdvancedStorage = artifacts.require('AdvancedStorage');
 
-contract('AdvancedStorage', () => {
+contract('AdvancedStorage', (accounts) => {
     let advancedStorage;
 
     before(async () => {
         advancedStorage = await AdvancedStorage.deployed();
+        [admin, _] = accounts;
     });
 
     it('Should add an element to ids array', async () => {
